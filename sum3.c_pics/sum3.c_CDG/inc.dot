@@ -1,0 +1,28 @@
+digraph {
+	graph [bb="0,0,1146,91"];
+	node [label="\N"];
+	subgraph cluster_82 {
+		graph [bb="8,8,1138,83",
+			label="%0",
+			lheight=0.21,
+			lp="573,71.5",
+			lwidth=0.32
+		];
+		83		 [height=0.5,
+			label="%tmp = alloca i32 , align 4",
+			pos="993,34",
+			width=3.8075];
+		84		 [height=0.5,
+			label="store i32 1 , i32* %tmp , align 4",
+			pos="678,34",
+			width=4.429];
+		85		 [height=0.5,
+			label="call void @add ( i32* %z, i32* %tmp )",
+			pos="314,34",
+			width=5.1741];
+		86		 [height=0.5,
+			label="ret void",
+			pos="63,34",
+			width=1.2888];
+	}
+}
