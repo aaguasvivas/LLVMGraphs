@@ -14,5 +14,6 @@ Each folder contains control flow graphs and control dependence graphs for the t
 To write a lot of the code to get these graphs, I cloned and looked at the following repo: https://github.com/zhangyz/llvm-slicing
 
 To get it to run, use the command:
-```$ llvm-slicing sum3.c -g Cdg
+```
+$ llvm-slicing sum3.c -g Cdg
 ```
