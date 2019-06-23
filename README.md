@@ -8,3 +8,11 @@ Source Code folder contains sum3.c, smallcode.c and sumoriginal.c. To view the s
 ## Usage
 
 Each folder contains control flow graphs and control dependence graphs for the three different programs, as a png and as a dot file. To run the dot files you can use commands like xdot, and to see the png you can clone the repository and open it.
+
+## Instructions
+
+To write a lot of the code to get these graphs, I cloned and looked at the following repo: https://github.com/zhangyz/llvm-slicing
+
+To get it to run, use the command:
+```$ llvm-slicing sum3.c -g Cdg
+```
